@@ -198,19 +198,11 @@ nav a {
     margin-bottom: 10px;
 }
 
-.about-page {
-    /* border: 1px dotted red; */
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    flex-wrap: wrap;
-}
-
 .about-par {
     margin-bottom: 20px;
     /* border: solid red; */
     padding-bottom: 20px;
-    border-bottom: thin dotted black;
+    border-bottom:thin dashed black;
 } 
 
 .lets-work-together-par {
@@ -220,41 +212,54 @@ nav a {
 }
 
 .mid {
-    /* border: solid red; */
     display: flex;
-    padding: 20px;
     width: 100%;
-    margin: 25px auto;
-    /* justify-content: space-evenly; */
-    align-content: space-around;
-    flex-flow: column wrap ;
-    
-
+    flex-flow: row wrap ;
 }
 
- /* .strategy-par {
-    width: 400px;
-    height: 220px;
-    padding: 20px;
-    margin: 20px auto;
-    border: solid dotted green;
-} */
-/* .how-we-work-par {
-    padding: auto;
-    width: 400px;
-    border: solid red;
+ .strategy-par { 
+
+    width: 370px;
+    margin-right: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* border: dotted thin green; */
+    border-bottom: thin dashed black;
+
+} 
+
+.how-we-work-par {
+    width: 370px;
+    margin-right: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* border: dotted thin green; */
+    border-bottom: thin dashed black;
 }
+
 .places-we-work-par {
-    padding: auto;
-    width: 400px;
-    border: solid red;
+    width: 370px;
+    margin-right: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* border: dotted thin green; */
+    border-bottom: thin dashed black;
 }
 
 .collaboration-par {
-    padding: auto;
-    width: 400px;
-    border: solid red;
-}  */
+
+
+    width: 370px;
+    margin-right: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* border: dotted thin green; */
+    border-bottom: thin dashed black;
+} 
 
 .myButton {
 	border-radius:4px;
@@ -265,5 +270,13 @@ nav a {
 	font-size:13px;
 	font-weight:bold;
 	padding:7px 30px;
-	text-decoration:none;
+    text-decoration:none;
+}
+
+* p { 
+    padding-bottom: 10px;
+} 
+
+* h5 {
+    padding-top: 10px;
 }
