@@ -150,21 +150,26 @@ footer nav a {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    width: 800px;
     padding: 10px;
+    padding-left: 0px;
+    margin: 0 auto;
     margin-bottom: 20px;
     /* border: solid red; */
 }
 
 header nav {
     display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
     list-style-type: none;
+    padding-left: 40px;
     align-self: flex-end;
     /* border: solid red; */
 	color: grey;
-	width: 70%;
+    width: 70%;
+    
 }
 
 nav a {
@@ -218,10 +223,10 @@ nav a {
 }
 
  .strategy-par { 
-
     width: 370px;
     margin-right: 20px;
-    padding: 10px;
+    /* padding: 10px; */
+    padding-right: 0px;
     padding-top: 20px;
     padding-bottom: 30px;
     /* border: dotted thin green; */
@@ -232,18 +237,22 @@ nav a {
 .how-we-work-par {
     width: 370px;
     margin-right: 20px;
-    padding: 10px;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 0px;
     padding-top: 20px;
     padding-bottom: 30px;
-    /* border: dotted thin green; */
     border-bottom: thin dashed black;
+    
 }
 
 .places-we-work-par {
+    
     width: 370px;
     margin-right: 20px;
-    padding: 10px;
-    padding-top: 20px;
+    /* padding: 10px; */
+    padding-right: 0px;
+    padding-top: 40px;
     padding-bottom: 30px;
     /* border: dotted thin green; */
     border-bottom: thin dashed black;
@@ -251,13 +260,13 @@ nav a {
 
 .collaboration-par {
 
-
     width: 370px;
     margin-right: 20px;
-    padding: 10px;
-    padding-top: 20px;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 40px;
     padding-bottom: 30px;
-    /* border: dotted thin green; */
     border-bottom: thin dashed black;
 } 
 
